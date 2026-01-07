@@ -1,0 +1,6 @@
+transaction_id,customer_id,date,amount,currency,source
+P5001,C001,2024-01-05,100.0,USD,pos
+tx1001,C001,2024-01-05,100.0,USD,stripe
+P5002,C003,2024-01-06,90.0,USD,pos
+api_9001,C005,2024-01-06,120.0,USD,api
+tx1002,C002,2024-01-06,85.5,USD,stripe

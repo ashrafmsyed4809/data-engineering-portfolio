@@ -1,0 +1,6 @@
+txn_id,customer,email,amount,created_at,currency
+tx1001, C001 ,john@example.com,100,2024-01-05,USD
+tx1002,C002,mary@example.com, 85.5 ,01/06/2024,usd
+tx1003,,alex@example.com,-20,2024/01/07,USD
+tx1004,C004,sara@example.com,100,2024-13-01,USD
+tx1002,C002,mary@example.com,85.5,01/06/2024,USD
