@@ -1,0 +1,9 @@
+transaction_id,customer_id,transaction_date,amount,currency,country,payment_method
+T001,C001,2024-01-10,120.50,USD,USA,card
+T002,C002,2024-01-11,75.00,USD,USA,cash
+T003,,2024-01-12,200.00,EUR,Germany,card
+T004,C004,2024-13-01,150.00,USD,USA,card
+T005,C005,2024-01-15,-50.00,USD,USA,card
+T006,C006,2024-01-16,300.00,GBP,UK,paypal
+T006,C006,2024-01-16,300.00,GBP,UK,paypal
+T007,C007,2024-01-17,,USD,USA,card
