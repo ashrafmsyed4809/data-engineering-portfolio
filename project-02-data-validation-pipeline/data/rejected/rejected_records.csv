@@ -1,6 +1,5 @@
 transaction_id,customer_id,transaction_date,amount,currency,country,payment_method,reject_reason,transaction_date_parsed
 T006,C006,2024-01-16,300.0,GBP,UK,paypal,duplicate_transaction_id,
-T006,C006,2024-01-16,300.0,GBP,UK,paypal,duplicate_transaction_id,
 T003,,2024-01-12,200.0,EUR,Germany,card,missing_customer_id,
 T004,C004,2024-13-01,150.0,USD,USA,card,invalid_transaction_date,
 T005,C005,2024-01-15,-50.0,USD,USA,card,invalid_amount,

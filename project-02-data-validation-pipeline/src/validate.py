@@ -27,13 +27,15 @@ def validate_data(df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
     if missing_cols:
         raise ValueError(f"Schema mismatch. Columns: {df.columns}")
 
-    # 2. Duplicate transaction_id
-    duplicate_mask = df.duplicated(subset=["transaction_id"], keep=False)
+    # 2. Duplicate transaction_id (keep first, reject rest)
+    duplicate_mask = df.duplicated(subset=["transaction_id"], keep="first")
     duplicates = df[duplicate_mask]
+
     for _, row in duplicates.iterrows():
         rejected_rows.append({**row, "reject_reason": "duplicate_transaction_id"})
 
     df = df[~duplicate_mask]
+
 
     # 3. Null customer_id
     null_customer = df[df["customer_id"].isna()]
@@ -69,3 +71,6 @@ def validate_data(df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
 
     rejected_df = pd.DataFrame(rejected_rows)
     return df.reset_index(drop=True), rejected_df.reset_index(drop=True)
+
+
+
