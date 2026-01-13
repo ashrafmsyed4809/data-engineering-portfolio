@@ -32,6 +32,15 @@ Raw Data → Validation → Transformation → Load → Analytics-Ready Tables
 
 CI check triggered.
 
+## Data Quality Monitoring
+The pipeline produces a data quality report containing:
+- Total records ingested
+- Valid vs rejected records
+- Rejection rate
+
+This enables early detection of upstream data issues
+and supports continuous data quality monitoring.
+
 ## How to Run
 ```bash
 python run_pipeline.py
