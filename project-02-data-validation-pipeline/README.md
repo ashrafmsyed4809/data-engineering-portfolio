@@ -30,6 +30,8 @@ Raw Data → Validation → Transformation → Load → Analytics-Ready Tables
 - Duplicate transaction_id values are deduplicated by keeping the first
   occurrence and rejecting subsequent duplicates.
 
+CI check triggered.
+
 ## How to Run
 ```bash
 python run_pipeline.py
