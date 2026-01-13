@@ -1,4 +1,4 @@
-name: Data Pipeline CI
+name: Project 02 - Data Pipeline CI
 
 on:
   push:
@@ -23,4 +23,4 @@ jobs:
       - name: Run tests
         run: |
           cd project-02-data-validation-pipeline
-          pytest
+          python -m pytest
