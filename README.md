@@ -11,19 +11,6 @@ data cleaning, validation, and production-ready pipelines.
 - Data quality enforcement
 - Portable Python pipeline
 
-### project-02-data-validation-pipeline
-
-Build a production-style data pipeline that validates, tests, and loads only trusted data using Python, SQL, and CI/CD.
-
-
-Excellent — below is a **clean, professional, recruiter-ready README** specifically written to be **inserted directly into your GitHub portfolio**.
-It is concise, credible, and clearly signals **real-world data engineering skills** without sounding academic.
-
-You can **copy–paste this as-is** into
-`project-02-data-validation-pipeline/README.md`.
-
----
-
 # Project 02: Data Validation Pipeline (End-to-End)
 
 ## Overview
