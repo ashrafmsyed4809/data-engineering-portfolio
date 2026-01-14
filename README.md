@@ -188,25 +188,3 @@ This project demonstrates skills directly applicable to data engineering roles:
 **Ashraf Syed**
 Data Engineering & Automation
 GitHub Portfolio: *data-engineering-portfolio*
-
----
-
-### ✅ Portfolio Tip
-
-Including:
-
-* A **GitHub Actions green check**
-* A **sample data quality report**
-* A short **YouTube walkthrough**
-
-…will significantly increase recruiter and client engagement.
-
----
-
-If you want, next I can:
-
-* ✅ Review this README like a hiring manager
-* 🎥 Write a **YouTube walkthrough script**
-* 🚀 Design **Project 3** to level up your portfolio further
-
-Just tell me what you want to do next.
