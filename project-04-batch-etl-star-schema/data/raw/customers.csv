@@ -1,0 +1,6 @@
+customer_id,first_name,last_name,email,city,state
+C001,John,Doe,john.doe@email.com,Dallas,TX
+C002,Jane,Smith,jane.smith@email.com,Austin,TX
+C003,Robert,Brown,robert.brown@email.com,Denver,CO
+C004,Linda,White,linda.white@email.com,Phoenix,AZ
+C005,Michael,Green,michael.green@email.com,Dallas,TX

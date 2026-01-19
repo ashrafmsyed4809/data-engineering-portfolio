@@ -208,29 +208,6 @@ FACT LOAD
 
 ## Repository Structure
 
-```
-project-04-batch-etl-star-schema/
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── sql/
-│   ├── ddl/
-│   ├── transformations/
-│   └── analytics/
-│
-├── src/
-│   ├── extract.py
-│   ├── transform.py
-│   ├── load_dimensions.py
-│   └── load_fact.py
-│
-├── tests/
-├── README.md
-└── requirements.txt
-```
-
 ---
 
 ## Why This Project Matters
@@ -251,3 +228,29 @@ This project mirrors **real-world analytics engineering** work and demonstrates:
 3. Implement dimension loaders
 4. Implement fact loader
 5. Add analytics queries
+
+
+project-04-batch-etl-star-schema/
+
+│
+├── README.md                 <-- Portfolio-ready README (we just created)
+├── data/
+│   └── raw/                  <-- Sample raw CSV files
+│       ├── sales_transactions_2024-01-01.csv
+│       ├── customers.csv
+│       ├── products.csv
+│       └── stores.csv
+│
+├── sql/
+│   ├── 01_staging_tables.sql      <-- CREATE + COPY/Import staging
+│   ├── 02_dim_date.sql            <-- dim_date generation
+│   ├── 03_dim_product.sql         <-- dim_product load
+│   ├── 04_dim_store.sql           <-- dim_store load
+│   ├── 05_dim_customer_scd2.sql   <-- dim_customer SCD Type 2
+│   └── 06_fact_sales.sql          <-- fact_sales load
+│
+├── docs/
+│   └── data_flow_diagram.png      <-- ETL diagram (we generated)
+│
+└── utils/
+    └── sample_queries.sql         <-- Validation / aggregation queries
